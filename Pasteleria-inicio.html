@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial, helvetica;
+    background-color: rgb(252, 220, 236);
+}
+
+.contenedor{
+        width: 1348px;
+        height: 200px;
+        background-image: url(./bg-image.png);
+        background-size: 1348px 200px;
+}
+
+
+
+#navegador{
+    float: right;
+    margin-right: 30px;
+    margin-top: 150px;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(224, 145, 201);
+    padding: 15px;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: right;
+}
+
+.menu li a:hover{
+    color: rgb(101, 191, 252);
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(252, 147, 182);
+    opacity: 80%;
+    margin-top: -40px;
+}
+
+
+#logo{
+    position: absolute;
+    float: left;
+    margin-top: -8px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+
+#cont_principal {
+	width: 800px;
+	margin-left: 300px;
+    overflow: hidden; 
+    position: absolute;
+    opacity: 50%;
+}
+
+#pie_pagina{
+    float: none;
+    padding-inline-end: 10;
+    position: absolute;
+    width: 800px;
+    margin-top: 700px;
+    margin-left: 200px;
+}
+
+#parrafo{
+    font-size: 35px;
+    color: rgb(197, 90, 174);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+#logotipo{
+    position: absolute;
+    margin-left: 525px;
+    margin-top: 40px;
+}
+
+#fondo{
+    position: absolute;
+    width: 1348px;
+    opacity: 20;
+    margin-top: -55px;
+}
+
+#admin{
+    position: absolute;
+    margin-left: 1290px;
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+    <header class="contenedor">
+   
+       
+            <img id="logo" src="./imagenes/logo-pasteles.png" alt="Logotipo" name="logo" width="300"\>
+            <img id="logotipo" src="./imagenes/logo-sugarmoon.png" alt="LogoSugarMoon" name="logo" width="300"\>
+
+        <div id="navegador">
+                <ul class="menu">
+                    <li><a href="./Pasteleria-inicio.html">Inicio</a></li>
+                    <li><a href="./Pasteleria-productos.html">Productos</a></li>
+                    <li><a href="./Pasteleria-pedidos.html">Pedidos</a></li>
+                </ul>
+        </div>
+<div id="admin"><a href="./Pasteleria-admin.html">Admin</a></div>
+
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <div>
+        <img id="fondo" src="./imagenes/pastel chocolate y fresas.PNG" alt="fondo" name="fondo" width="300"\>
+
+    </div>
+    <h1>Bienvenidos</h1>
+
+
+    <section id="cont_principal">
+
+    <p id="parrafo">En nuestra pastelería <strong>Sugar Moon</strong> podra encontrar una gran variedad de pasteles. 
+        Contamos con pedidos en línea, en los cuales usted podra elegir de entre todos los sabores, 
+        rellenos y decorados.</p>
+    </section>
+
+
+        <footer id="pie_pagina">
+            <p>Referencias:</p> 
+            <br>
+            <a href='https://aprende.com/blog/gastronomia/reposteria/sabores-de-pasteles/'>Pagina reposteria : https://aprende.com/blog/gastronomia/reposteria/sabores-de-pasteles/</a>
+            <br>
+            <a href='https://www.freepik.com/vectors/cake-illustration'>Cake illustration vector created by macrovector - www.freepik.com</a>
+            <br>
+            <a href='https://www.freepik.com/vectors/cream-cake'>Cream cake vector created by macrovector - www.freepik.com</a>
+        </footer>
+
+
+</body>
+</html>
